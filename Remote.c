@@ -1,5 +1,5 @@
 /*
- *  REMOTE  —  STM32F103C8 @ 72 MHz  —  bare metal, no HAL
+ *  REMOTE  —  STM32F103C8T6 @ 72 MHz  —  bare metal, no HAL
  *
  *  PA0 = UP    PA1 = DOWN   PA2 = LEFT   PA3 = RIGHT  (active low, pull-up)
  *  PA4 = POWER toggle (active low)
