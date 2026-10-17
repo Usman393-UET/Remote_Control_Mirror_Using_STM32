@@ -1,5 +1,5 @@
 /*
- *  RECEIVER — STM32F103C8 @ 72 MHz — bare metal, no HAL
+ *  RECEIVER — STM32F103C8T6 @ 72 MHz — bare metal, no HAL
  *
  *  PA0  = TIM2_CH1 -> Servo X (pan)     stop = 1480 us
  *  PA1  = TIM2_CH2 -> Servo Y (tilt)    stop = 1510 us
