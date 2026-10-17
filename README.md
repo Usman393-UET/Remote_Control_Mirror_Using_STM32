@@ -62,28 +62,3 @@ A dual-microcontroller wireless system designed to adjust a motorized mirror ass
 
 ---
 
-## 📂 Project Architecture
-
-```text
-├── Remote_Transmitter/
-│   ├── Src/
-│   │   └── main.c             # Button matrix scanning & TX packet handling
-│   └── Remote_Transmitter.ioc # STM32CubeMX configuration file
-├── Mirror_Receiver/
-│   ├── Src/
-│   │   └── main.c             # RX packet parsing & PWM timer updates
-│   └── Mirror_Receiver.ioc    # STM32CubeMX configuration file
-└── Docs/
-    └── Schematic.pdf          # Hardware wiring diagrams
-```
-
----
-
-## 🚀 Execution & Setup Workflow
-
-1. Configure hardware parameters using the provided `.ioc` files in **STM32CubeMX**.
-2. Generate the initialization code framework tailored for **Keil MDK** or **STM32CubeIDE**.
-3. Flash the `Remote_Transmitter` binary firmware onto your controller node.
-4. Flash the `Mirror_Receiver` binary firmware onto your servo actuator node.
-5. Provide a shared stable **GND reference** across the receiver board and servo power supply rails.
-6. Power on the nodes to test responsive wireless alignment.
