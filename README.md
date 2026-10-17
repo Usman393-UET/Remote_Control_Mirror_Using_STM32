@@ -61,4 +61,5 @@ A dual-microcontroller wireless system designed to adjust a motorized mirror ass
 | **Servo Y** | Timer PWM Output | Vertical Control |
 
 ---
-
+## Authors --
+Muhammad Wasim, Muhammad Usman
